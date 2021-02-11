@@ -39,7 +39,7 @@ class Linear_Regression:
 		return error
 
 if __name__ == '__main__':
-	z=pd.read_csv('ex1data1.txt')
+	z=pd.read_csv('example_dataset.txt')
 	z=np.array(z.T)
 	train_data=np.reshape(z[0],[z.shape[1],1])
 	train_label=np.reshape(z[1],[z.shape[1],1])
